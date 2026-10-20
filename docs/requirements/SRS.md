@@ -6,7 +6,7 @@
 | Field | Value |
 |---|---|
 | Project Name | Animal Aid Platform |
-| Document Version | 0.1 |
+| Document Version | 0.2 |
 | Status | Draft |
 | Created | 19-10-2026 |
 | Last Updated | 20-10-2026 |
