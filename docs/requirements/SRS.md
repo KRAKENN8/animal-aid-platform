@@ -9,7 +9,7 @@
 | Document Version | 0.1 |
 | Status | Draft |
 | Created | 19-10-2026 |
-| Last Updated | 19-10-2026 |
+| Last Updated | 20-10-2026 |
 | Author / Reviewer / Approver | [Ivan Petrov](https://github.com/KRAKENN8), [Maksim Koroljov](https://github.com/rewazi) |
 
 ---
@@ -97,7 +97,6 @@ This document is intended for:
 | Fostering | Temporary care of an animal until a longer-term arrangement is available. |
 | Help Request | A request for assistance submitted through the platform. |
 | Volunteer Task | A defined activity created to coordinate assistance. |
-| ANPR | Not applicable to this project unless introduced by a later requirement. |
 
 ## 1.6 References
 
@@ -1618,7 +1617,7 @@ The following items require clarification before the SRS can be considered stabl
 | OQ-008 | Which Google service, if any, will be used for location, maps, geocoding, or email? | “Google” has been mentioned, but the intended product and integration are not yet precise. | Open |
 | OQ-009 | Which fields are mandatory for an animal listing, and which may be unknown? | Required for validation rules and form design. | Open |
 | OQ-010 | What are the exact retention and deletion rules for accounts, messages, applications, listings, and administrative records? | Required for data integrity, privacy, and lifecycle management. | Open |
-| OQ-011 | What does the previously discussed 30-day announcement expiration apply to, given that public lost-and-found announcements are excluded from the MVP? | The announcement type and scope must be identified before the rule can be included. | Open |
+| OQ-011 | Are any platform records subject to automatic expiration, and if so, which records and what expiration periods apply? | Expiration rules must be explicitly defined before they can be implemented consistently. | Open |
 | OQ-012 | What is the exact process for account deletion, including the handling of related records? | Required to define the account lifecycle and data handling. | Open |
 | OQ-013 | How should shelter eligibility be determined using email domains, and what happens when the domain is inconclusive? | Email-domain analysis alone may not reliably establish that an applicant represents a legitimate shelter. | Open |
 | OQ-014 | What are the final authentication, account recovery, and session-management rules? | Required for implementation and security testing. | Open |
@@ -1658,3 +1657,4 @@ The following items require clarification before the SRS can be considered stabl
 | Version | Date | Author | Description |
 |---|---|---|---|
 | 0.1 | 2026-10-19 | Ivan Petrov, Maksim Koroljov | Initial preliminary SRS based on the requirements elicitation. Unresolved decisions are recorded in Section 13. |
+| 0.2 | 2026-10-20 | Ivan Petrov, Maksim Koroljov | Removed an unrelated ANPR glossary entry and rewrote OQ-011 to avoid treating an unconfirmed 30-day expiration period as an established requirement. |
