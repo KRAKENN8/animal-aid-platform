@@ -1,5 +1,5 @@
 ---
-status: Proposed
+status: Accepted
 date: 19.10.2026
 decision-makers: Ivan Petrov & Maksim Koroljov
 ---
